@@ -29,12 +29,8 @@ namespace Pong
         {
             bool res = false;
             if(point.X > this.position.X && point.X < this.position.X + this.width)
-            {
                 if (point.Y > this.position.Y && point.Y < this.position.Y + this.height)
-                {
                     res = true;
-                }
-            }
             return res;
         }
     }

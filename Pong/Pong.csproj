@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Ball.cs" />
     <Compile Include="CollisionBox.cs" />
+    <Compile Include="CollisionCircle.cs" />
     <Compile Include="CollisionRectangle.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Game1.cs" />
